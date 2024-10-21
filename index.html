@@ -1,0 +1,17 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+        <h1>JSON</h1>
+
+
+        <script>
+            var school= {'name':'Witty','Age':15,'grades':'1st to'}
+            var newJSON= JSON.stringify(school);
+            var mytext= JSON.parse(newJSON);
+
+            document.write(mytext['name']+' is one of the most perstigous school, with over '+mytext['Age']+' years of experince')
+        </script>
+    </body>
+</html>
